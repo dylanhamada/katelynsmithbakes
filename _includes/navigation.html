@@ -1,6 +1,28 @@
 <nav>
-  <img src="{{ site.baseurl }}/assets/icons/logo.svg" alt="Katelyn Smith Bakes Logo">
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
+  <div class="nav-main">
+    <img 
+      src="{{ site.baseurl }}/assets/icons/logo.svg" 
+      class="nav-logo"
+      alt="Katelyn Smith Bakes Logo"
+    >
+    <span class="nav-desktop-links">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </span>
+    <img 
+      src="{{ site.baseurl }}/assets/icons/list.svg" 
+      class="nav-mobile-menu"
+      alt="Mobile Menu Icon" 
+      width="25" 
+      height="25"
+    >
+  </div>
+  <div class="nav-responsive">
+    <span class="nav-responsive-links">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </span>
+  </div>
 </nav>
