@@ -10,13 +10,7 @@
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
       {% endfor %}
     </span>
-    <img 
-      src="{{ site.baseurl }}/assets/icons/list.svg" 
-      class="nav-mobile-menu"
-      alt="Mobile Menu Icon"
-      width="25" 
-      height="25"
-    >
+    <span class="nav-mobile-menu menu-open" alt="Mobile Menu Icon"></span>
   </div>
   <div class="nav-responsive">
     <span class="nav-responsive-links">
