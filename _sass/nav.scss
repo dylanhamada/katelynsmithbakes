@@ -1,3 +1,12 @@
+.nav-responsive {
+  display: none;
+}
+
+.nav-responsive-links {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 576px) {
   .nav-mobile-menu {
     display: none;
@@ -11,10 +20,5 @@
 @media screen and (max-width: 576px) {
   .nav-desktop-links {
    display: none; 
-  }
-
-  .nav-responsive-links {
-    display: flex;
-    flex-direction: column;
   }
 }
