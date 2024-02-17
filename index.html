@@ -2,3 +2,18 @@
 layout: default
 title: Katelyn Smith Bakes
 ---
+
+<div class="index-snapshot-gallery">
+  {% assign firstSnapshot = site.data.gallery[0] %}
+  <img src="{{ firstSnapshot.url }}" alt="{{ firstSnapshot.name }}" />
+  <h2>{{ firstSnapshot.name }}</h2>
+  <p>{{ firstSnapshot.description }}</p>
+  <a href="/gallery.html">See more</a>
+</div>
+<div class="index-snapshot-blog">
+  {% assign latestPost = site.posts[0] %}
+  <img src="{{ latestPost.imageurl }}" alt="{{ latestPost.title }}" />
+  <h2>{{ latestPost.title }}</h2>
+  <p>{{ latestPost.excerpt }}</p>
+  <a href="{{ latestPost.url }}">{{ latestPost.linktext }}</a>
+</div>
