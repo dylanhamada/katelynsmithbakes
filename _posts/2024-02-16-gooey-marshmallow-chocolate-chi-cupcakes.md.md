@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gooey Marshmallow Chocolate Chip Cupcakes"
+title: "Gooey marshmallow chocolate chip cupcakes"
 excerpt: "Cupcakes can be decadent and fun at the same time! This recipe has been handed down for generations - one, specifically. But I swear it's a keeper!"
 imageurl: https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/chocolate-marshmallow-cupcakes.jpg
 linktext: "Full recipe"

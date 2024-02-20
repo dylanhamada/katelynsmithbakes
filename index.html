@@ -10,7 +10,7 @@ title: Katelyn Smith Bakes
   </a>
   <h2>{{ firstSnapshot.name }}</h2>
   <p>{{ firstSnapshot.description }}</p>
-  <a href="/gallery.html">See more</a>
+  <a class="button" href="/gallery.html">See more</a>
 </div>
 <div class="index-snapshot blog">
   {% assign latestPost = site.posts[0] %}
@@ -21,7 +21,7 @@ title: Katelyn Smith Bakes
     <h2>{{ latestPost.title }}</h2>
   </a>
   <p>{{ latestPost.excerpt }}</p>
-  <a href="{{ latestPost.url }}">{{ latestPost.linktext }}</a>
+  <a class="button" href="{{ latestPost.url }}">{{ latestPost.linktext }}</a>
 </div>
 <div class="index-snapshot about">
   <img
@@ -35,17 +35,18 @@ title: Katelyn Smith Bakes
     described as “transcendent,” “unreal,” and “OMG.” I have a great idea: I
     should cater your next event!
   </p>
-  <a href="/about.html">More Kate</a>
+  <a class="button" href="/about.html">More Kate</a>
 </div>
 <div class="index-snapshot contact">
   <img
     src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/riverside.jpg"
     alt="Riverside and San Bernardino"
   />
+  <h2>Service area</h2>
   <p>
     I’m based in the Los Angeles area, but primarily serve the cities of
     Riverside and San Bernardino. I’m flexible though! Please get in touch and
     I’m sure we can work something out.
   </p>
-  <a href="/contact.html">Contact me</a>
+  <a class="button" href="/contact.html">Contact me</a>
 </div>
