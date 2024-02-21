@@ -7,6 +7,10 @@
   .nav-logo {
     height: 100px;
   }
+
+  .nav-logo:hover {
+    opacity: 80%;
+  }
   
   .nav-desktop-links {
     display: none;
@@ -34,17 +38,25 @@
 }
 
 .nav-responsive {
-  position: fixed;
-  top: 100px;
-  right: 0;
-  width: 100vw;
+  background-color: $background-white;
   height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 100px;
   transition: transform 0.5s ease;
   transform: translateX(100%);
+  width: 100vw;
 
   .nav-responsive-links {
     display: flex;
     flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 3rem;
+
+    a {
+      margin: .5rem 0;
+    }
   }
 }
 
@@ -54,8 +66,20 @@
 
 @media screen and (min-width: 576px) {
   .nav-main {
+    display: grid;
+    grid: auto-flow / 125px 1fr;
+    height: 130px;
+    margin: 0 auto;
+    width: 40%;
+
+    .nav-logo {
+      height: 125px;
+    }
+    
     .nav-desktop-links {
-      display: inline;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 4rem;
     }
     
     .nav-mobile-menu {
