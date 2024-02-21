@@ -1,11 +1,13 @@
 $background-white: #FAFAFA;
-$text-color: #272727;
+$text-color: hsl(0, 0%, 15%);
+$link-hover-color: #272727cb;
 
 body {
   background-color: $background-white;
   box-sizing: border-box;
   color: $text-color;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 400;
   margin: 0 auto;
 }
@@ -19,11 +21,17 @@ h2 {
 }
 
 p {
+  margin: 0;
   padding: 0 20px;
 }
 
-a, a:hover, a:visited, a:active {
+a, a:visited, a:active {
   color: $text-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $link-hover-color;
   text-decoration: none;
 }
 
@@ -35,13 +43,24 @@ img {
   margin: 0 auto;
 }
 
-.button, .button:hover, .button:visited, .button:active {
+.button {
   background-color: $text-color;
   color: $background-white;
-  display: flex;
-  height: 2.5rem;
-  margin: 0 auto;
-  min-width: 25%;
-  text-align: center;
-  vertical-align: middle;
+  display: inline-block;
+  margin: 2rem;
+  padding: 0.75rem 1rem;
+}
+
+.button:hover {
+  background-color: $link-hover-color;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    font-size: 20px;
+  }
+  
+  .content {
+    width: 40%;
+  }
 }

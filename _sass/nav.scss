@@ -1,9 +1,11 @@
 .nav-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   height: 100px;
 
   .nav-logo {
-    height: 80px;
-    width: 80px;
+    height: 100px;
   }
   
   .nav-desktop-links {
@@ -11,9 +13,15 @@
   }
   
   .nav-mobile-menu {
-    display: inline-block;
-    min-height: 25px;
-    min-width: 25px;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    width: 30px;
+  }
+
+  .nav-mobile-menu:hover {
+    opacity: 75%;
   }
 
   .menu-open {

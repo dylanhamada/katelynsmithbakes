@@ -1,10 +1,12 @@
 <nav>
   <div class="nav-main">
-    <img 
-      src="{{ site.baseurl }}/assets/icons/logo.svg" 
-      class="nav-logo"
-      alt="Katelyn Smith Bakes Logo"
-    >
+    <a href="/">
+      <img 
+        src="{{ site.baseurl }}/assets/icons/logo.svg" 
+        class="nav-logo"
+        alt="Katelyn Smith Bakes Logo"
+      >
+    </a>
     <span class="nav-desktop-links">
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
