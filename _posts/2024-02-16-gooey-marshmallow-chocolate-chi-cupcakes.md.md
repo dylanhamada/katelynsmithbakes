@@ -7,7 +7,12 @@ linktext: "Full recipe"
 color: 95D6FB
 ---
 
-![Gooey Marshmallow Chocolate Chip Cupcakes](https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/chocolate-marshmallow-cupcakes.jpg "Gooey Marshmallow Chocolate Chip Cupcakes")
+<div>
+  <img 
+    src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/chocolate-marshmallow-cupcakes.jpg" 
+    alt="Gooey Marshmallow Chocolate Chip Cupcakes" 
+  />
+</div>
 
 ## Gooey Marshmallow Chocolate Chip Cupcakes
 
