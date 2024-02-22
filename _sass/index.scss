@@ -2,7 +2,12 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
   width: 100%;
+}
+
+.index-snapshot:last-of-type {
+  margin-bottom: 0;
 }
 
 .about {
