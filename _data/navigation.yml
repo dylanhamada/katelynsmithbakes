@@ -1,8 +1,8 @@
 - name: Blog
-  link: {{ site.baseurl }}/blog.html
+  link: /blog.html
 - name: Gallery
-  link: {{ site.baseurl }}/gallery.html
+  link: /gallery.html
 - name: About
-  link: {{ site.baseurl }}/about.html
+  link: /about.html
 - name: Contact
-  link: {{ site.baseurl }}/contact.html
+  link: /contact.html
