@@ -14,7 +14,8 @@ title: Katelyn Smith Bakes
     <div class="button">See more</div>
   </a>
 </div>
-{% assign latestPost = site.posts[0] %}
+{% assign sortedPosts = site.posts | sort: 'date' | reverse %} {% assign
+latestPost = sortedPosts | first %}
 <div class="card blog" style="background-color: #{{ latestPost.color }}">
   <a href="{{ site.baseurl }}/{{ latestPost.url }}">
     <img src="{{ latestPost.imageurl }}" alt="{{ latestPost.title }}" />
