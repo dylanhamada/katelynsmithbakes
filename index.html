@@ -8,12 +8,12 @@ title: Katelyn Smith Bakes
   class="index-snapshot gallery"
   style="background-color: #{{ firstSnapshot.color }}"
 >
-  <a href="/gallery.html">
+  <a href="{{ site.baseurl }}/gallery.html">
     <img src="{{ firstSnapshot.imageurl }}" alt="{{ firstSnapshot.name }}" />
   </a>
   <h2>{{ firstSnapshot.name }}</h2>
   <p>{{ firstSnapshot.description }}</p>
-  <a href="/gallery.html">
+  <a href="{{ site.baseurl }}/gallery.html">
     <div class="button">See more</div>
   </a>
 </div>
@@ -22,44 +22,53 @@ title: Katelyn Smith Bakes
   class="index-snapshot blog"
   style="background-color: #{{ latestPost.color }}"
 >
-  <a href="{{ latestPost.url }}">
+  <a href="{{ site.baseurl }}/{{ latestPost.url }}">
     <img src="{{ latestPost.imageurl }}" alt="{{ latestPost.title }}" />
   </a>
-  <a href="{{ latestPost.url }}">
+  <a href="{{ site.baseurl }}/{{ latestPost.url }}">
     <h2>{{ latestPost.title }}</h2>
   </a>
   <p>{{ latestPost.excerpt }}</p>
-  <a href="{{ latestPost.url }}">
-    <p>{{ latestPost.url }}</p>
+  <a href="{{ site.baseurl }}/{{ latestPost.url }}">
     <div class="button">{{ latestPost.linktext }}</div>
   </a>
 </div>
 <div class="index-snapshot about">
-  <img
-    src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134427/Katelyn%20Smith%20Bakes/katelyn-placeholder-mobile.jpg"
-    alt="Katelyn Smith"
-  />
-  <h2>About me</h2>
+  <a href="{{ site.baseurl }}/about.html">
+    <img
+      src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134427/Katelyn%20Smith%20Bakes/katelyn-placeholder-mobile.jpg"
+      alt="Katelyn Smith"
+    />
+  </a>
+  <a href="{{ site.baseurl }}/about.html">
+    <h2>About me</h2>
+  </a>
   <p>
     I’m Kate, and I love to bake! Been doing it since I was yay big, and I don’t
     see myself stopping any time soon. My cookies, cakes, and pastries have been
     described as “transcendent,” “unreal,” and “OMG.” I have a great idea: I
     should cater your next event!
   </p>
-  <a href="/about.html">
+  <a href="{{ site.baseurl }}/about.html">
     <div class="button">More Kate</div>
   </a>
 </div>
 <div class="index-snapshot contact">
-  <img
-    src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/riverside.jpg"
-    alt="Riverside and San Bernardino"
-  />
-  <h2>Service area</h2>
+  <a href="{{ site.baseurl }}/contact.html">
+    <img
+      src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/riverside.jpg"
+      alt="Riverside and San Bernardino"
+    />
+  </a>
+  <a href="{{ site.baseurl }}/contact.html">
+    <h2>Service area</h2>
+  </a>
   <p>
     I’m based in the Los Angeles area, but primarily serve the cities of
     Riverside and San Bernardino. I’m flexible though! Please get in touch and
     I’m sure we can work something out.
   </p>
-  <a href="/contact.html"> <div class="button">Contact me</div></a>
+  <a href="{{ site.baseurl }}/contact.html">
+    <div class="button">Contact me</div></a
+  >
 </div>
