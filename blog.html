@@ -4,7 +4,7 @@ title: Blog
 ---
 
 {% for post in site.posts %}
-<div class="blog-snapshot" style="background-color: #{{ post.color}}">
+<div class="card" style="background-color: #{{ post.color}}">
   <a href="{{ site.baseurl }}/{{ post. url }}">
     <img src="{{ post.imageurl }}" alt="{{ post.title }}" />
   </a>

@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   height: 100px;
+  padding-top: 15px;
 
   .nav-logo {
     height: 100px;
@@ -70,6 +71,7 @@
     grid: auto-flow / 125px 1fr;
     height: 130px;
     margin: 0 auto;
+    padding-top: 0;
     width: 40%;
 
     .nav-logo {

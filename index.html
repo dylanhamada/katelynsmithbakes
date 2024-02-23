@@ -4,10 +4,7 @@ title: Katelyn Smith Bakes
 ---
 
 {% assign firstSnapshot = site.data.gallery[0] %}
-<div
-  class="index-snapshot gallery"
-  style="background-color: #{{ firstSnapshot.color }}"
->
+<div class="card gallery" style="background-color: #{{ firstSnapshot.color }}">
   <a href="{{ site.baseurl }}/gallery.html">
     <img src="{{ firstSnapshot.imageurl }}" alt="{{ firstSnapshot.name }}" />
   </a>
@@ -18,10 +15,7 @@ title: Katelyn Smith Bakes
   </a>
 </div>
 {% assign latestPost = site.posts[0] %}
-<div
-  class="index-snapshot blog"
-  style="background-color: #{{ latestPost.color }}"
->
+<div class="card blog" style="background-color: #{{ latestPost.color }}">
   <a href="{{ site.baseurl }}/{{ latestPost.url }}">
     <img src="{{ latestPost.imageurl }}" alt="{{ latestPost.title }}" />
   </a>
@@ -33,7 +27,7 @@ title: Katelyn Smith Bakes
     <div class="button">{{ latestPost.linktext }}</div>
   </a>
 </div>
-<div class="index-snapshot about">
+<div class="card about">
   <a href="{{ site.baseurl }}/about.html">
     <img
       src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134427/Katelyn%20Smith%20Bakes/katelyn-placeholder-mobile.jpg"
@@ -53,7 +47,7 @@ title: Katelyn Smith Bakes
     <div class="button">More Kate</div>
   </a>
 </div>
-<div class="index-snapshot contact">
+<div class="card contact">
   <a href="{{ site.baseurl }}/contact.html">
     <img
       src="https://res.cloudinary.com/dphmoqr9f/image/upload/v1708134428/Katelyn%20Smith%20Bakes/riverside.jpg"

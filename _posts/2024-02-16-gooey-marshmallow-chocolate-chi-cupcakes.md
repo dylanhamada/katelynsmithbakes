@@ -14,7 +14,7 @@ color: 95D6FB
   />
 </div>
 
-## Gooey Marshmallow Chocolate Chip Cupcakes
+## Gooey marshmallow chocolate chip cupcakes
 
 **_February 28, 2024_**
 
