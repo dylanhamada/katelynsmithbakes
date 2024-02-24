@@ -3,8 +3,8 @@ layout: default
 title: Katelyn Smith Bakes
 ---
 
-{% assign firstSnapshot = site.data.gallery[0] %}
-<div class="card gallery" style="background-color: #{{ firstSnapshot.color }}">
+{% assign firstSnapshot = site.data.images[0] %}
+<div class="card images" style="background-color: #{{ firstSnapshot.color }}">
   <a href="{{ site.baseurl }}/gallery.html">
     <img src="{{ firstSnapshot.imageurl }}" alt="{{ firstSnapshot.name }}" />
   </a>

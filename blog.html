@@ -5,14 +5,14 @@ title: Blog
 
 {% for post in site.posts %}
 <div class="card" style="background-color: #{{ post.color}}">
-  <a href="{{ site.baseurl }}/{{ post. url }}">
+  <a href="{{ site.baseurl }}{{ post.url }}">
     <img src="{{ post.imageurl }}" alt="{{ post.title }}" />
   </a>
-  <a href="{{ site.baseurl }}/{{ post. url }}">
+  <a href="{{ site.baseurl }}{{ post. url }}">
     <h2>{{ post.title }}</h2>
   </a>
   <p>{{ post.excerpt }}</p>
-  <a href="{{ site.baseurl }}/{{ post.url }}">
+  <a href="{{ site.baseurl }}{{ post.url }}">
     <div class="button">{{ post.linktext }}</div>
   </a>
 </div>

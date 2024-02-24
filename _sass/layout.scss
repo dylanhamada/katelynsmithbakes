@@ -46,14 +46,6 @@ img {
   margin-top: 50px;
 }
 
-.button {
-  background-color: $text-color;
-  color: $background-white;
-  display: inline-block;
-  margin: 2rem;
-  padding: 0.75rem 1rem;
-}
-
 .card {
   align-items: center;
   display: flex;
@@ -64,6 +56,14 @@ img {
 
 .card:last-of-type {
   margin-bottom: 0;
+}
+
+.button {
+  background-color: $text-color;
+  color: $background-white;
+  display: inline-block;
+  margin: 2rem;
+  padding: 0.75rem 1rem;
 }
 
 .button:hover {
