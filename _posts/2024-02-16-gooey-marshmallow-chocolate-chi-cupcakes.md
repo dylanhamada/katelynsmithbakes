@@ -29,7 +29,7 @@ Cupcakes can be decadent and fun at the same time! This recipe has been handed d
 - 100g small marshmallows
 - chocolate icing for decoration
 
-**Steps**
+**Instructions**
 
 1. Mix the flour, sugar, and butter in a stand mixer until well-combined.
 2. Melt chocolate chips and fold into batter.
