@@ -53,3 +53,5 @@ plugins:
 collections:
   gallery:
     output: true
+
+permalink: /:categories/:year/:month/:day/:title/
