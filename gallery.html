@@ -5,7 +5,7 @@ title: Gallery
 
 {% for image in site.gallery %}
 <div class="card">
-  <a href="{{ site.baseurl }}{{ image.url }}">
+  <a href="{{ site.url }}{{ site.baseurl }}{{ image.url }}">
     <img src="{{ image.imageurl }}" alt="{{ image.name }}" />
   </a>
 </div>

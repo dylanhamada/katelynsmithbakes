@@ -1,15 +1,15 @@
 <nav>
   <div class="nav-main">
-    <a href="{{ site.baseurl }}/">
+    <a href="{{ site.url }}{{ site.baseurl }}/">
       <img 
-        src="{{ site.baseurl }}/assets/icons/logo.svg" 
+        src="{{ site.url }}{{ site.baseurl }}/assets/icons/logo.svg" 
         class="nav-logo"
         alt="Katelyn Smith Bakes Logo"
       >
     </a>
     <span class="nav-desktop-links">
       {% for item in site.data.navigation %}
-        <a href="{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
       {% endfor %}
     </span>
     <span class="nav-mobile-menu menu-open" alt="Mobile Menu Icon"></span>
@@ -17,7 +17,7 @@
   <div class="nav-responsive">
     <span class="nav-responsive-links">
       {% for item in site.data.navigation %}
-        <a href="{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
       {% endfor %}
     </span>
   </div>
