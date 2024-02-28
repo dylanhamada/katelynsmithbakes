@@ -1,3 +1,38 @@
 .contact-container {
   background-color: #88FF9B;
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+
+  input, textarea, button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  input, textarea {
+    border: none;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    min-height: 2rem;
+  }
+
+  textarea {
+    min-height: 6rem;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
 }
