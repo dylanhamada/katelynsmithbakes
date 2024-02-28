@@ -40,6 +40,11 @@ img {
   width: 100%;
 }
 
+ul, ol {
+  padding: 20px;
+  padding-inline-start: 40px;
+}
+
 .noscroll {
   overflow: hidden;
 }
