@@ -67,12 +67,28 @@
 
 @media (min-width: 576px) {
   .nav-main {
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    width: 80%;
+    
+    .nav-mobile-menu {
+      height: 30px;
+      position: absolute;
+      right: 10%;
+      width: 30px;
+    }
+  }
+  
+}
+
+@media (min-width: 800px) {
+  .nav-main {
     display: grid;
     grid: auto-flow / 125px 1fr;
     height: 130px;
-    margin: 0 auto;
     padding-top: 0;
-    width: 40%;
+    width: 60%;
 
     .nav-logo {
       height: 125px;

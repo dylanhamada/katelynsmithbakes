@@ -72,15 +72,27 @@ img {
 }
 
 @media (min-width: 576px) {
+  .content {
+    width: 80%;
+  }
+  
+  .card {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 800px) {
   body {
     font-size: 18px;
   }
-  
+
+  .content {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
   .content {
     width: 40%;
-  }
-
-  .card {
-    margin-bottom: 50px;
   }
 }
